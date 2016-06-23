@@ -5,7 +5,7 @@ namespace Citizens.Tests
 {
     public class TestsBase
     {
-        protected readonly DateTime TestTodayDate = new DateTime(2016, 5, 15);
+        protected readonly DateTime TestTodayDate = DateTime.Now;
 
         [TestInitialize]
         public virtual void Initialize()

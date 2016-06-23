@@ -1,4 +1,5 @@
 ﻿using System;
+using Citizens.Tests.Helpers;
 
 namespace Citizens
 {
@@ -9,5 +10,6 @@ namespace Citizens
         Gender Gender { get; }
         DateTime BirthDate { get; }
         string VatId { get; set; }
+        object Clone();
     }
 }
